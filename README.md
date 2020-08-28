@@ -28,6 +28,6 @@
 
 <img align="left" src="./w34_logo.png" width=120>
 
-<a href="https://public.tableau.com/views/makeovermondayw31/Dashboard1?:language=es&:display_count=y&:origin=viz_share_link">W34</a>  
+<a href="https://agusosimani.github.io/infovis/w34.html">W34</a>  
 <p><b>Source Article:</b> Sexual and Reproductive Health and Rights</p>
 <p><b>Data Source:</b> Guttmacher Institute</p>
