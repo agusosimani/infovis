@@ -3,8 +3,9 @@
 <br>
 <h3>Visualizaciones</h3>
 <img align="left" src="./w31_logo.png" width=120>
-[W31](https://public.tableau.com/views/makeovermondayw31/Dashboard1?:language=es&:display_count=y&:origin=viz_share_link)  
-Source Article: UK visits abroad: All visits Thousands - SA  
-Data Source: ONS
+
+<a href="https://public.tableau.com/views/makeovermondayw31/Dashboard1?:language=es&:display_count=y&:origin=viz_share_link">W31</a>  
+<p>Source Article: UK visits abroad: All visits Thousands - SA</p>
+<p>Data Source: ONS</p>
 
 
