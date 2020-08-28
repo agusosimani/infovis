@@ -13,7 +13,7 @@
 <img align="left" src="./w32_logo.png" width=120>
 
 <a href="https://public.tableau.com/views/makeovermondayw31/Dashboard1?:language=es&:display_count=y&:origin=viz_share_link">W32</a>  
-<p>Source Article: Benefits of Remote Work</p>
+<p style="margin: 0">Source Article: Benefits of Remote Work</p>
 <p>Data Source: State of Remote Work 2020</p>
 
 <br>
@@ -30,4 +30,4 @@
 
 <a href="https://public.tableau.com/views/makeovermondayw31/Dashboard1?:language=es&:display_count=y&:origin=viz_share_link">W34</a>  
 <p>Source Article: Sexual and Reproductive Health and Rights</p>
-<p>Data Source: Guttmacher Institute’s report: Adding It Up: Investing in Contraception and Maternal and Newborn Health, 2017</p>
+<p>Data Source: Guttmacher Institute</p>
