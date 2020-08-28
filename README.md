@@ -12,7 +12,7 @@
 
 <img align="left" src="./w32_logo.png" width=120>
 
-<a href="https://public.tableau.com/views/makeovermondayw31/Dashboard1?:language=es&:display_count=y&:origin=viz_share_link">W32</a>  
+<a href="https://public.tableau.com/views/makeovermondayw32/Dashboard?:language=es&:display_count=y&:origin=viz_share_link">W32</a>  
 <p><b>Source Article:</b> Benefits of Remote Work</p>
 <p><b>Data Source:</b> State of Remote Work 2020</p>
 
