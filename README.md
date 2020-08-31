@@ -31,3 +31,11 @@
 <a href="https://agusosimani.github.io/infovis/w34.html"><b>W34</b></a>  
 <p><b>Source Article:</b> Sexual and Reproductive Health and Rights</p>
 <p><b>Data Source:</b> Guttmacher Institute</p>
+
+<br>
+
+<img align="left" src="./w35_logo.png" width=120>
+
+<a href="https://agusosimani.github.io/infovis/w35.html"><b>W35</b></a>  
+<p><b>Source Article:</b> Tactics Board: How India can beat Australia</p>
+<p><b>Data Source:</b> ESPNcricinfo.com</p>
