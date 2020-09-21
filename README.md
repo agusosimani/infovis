@@ -39,3 +39,11 @@
 <a href="https://agusosimani.github.io/infovis/w35.html"><b>W35</b></a>  
 <p><b>Source Article:</b> Tactics Board: How India can beat Australia</p>
 <p><b>Data Source:</b> ESPNcricinfo.com</p>
+
+<br>
+
+<img align="left" src="logos/w36_logo.png" width=120>
+
+<a href="https://agusosimani.github.io/infovis/w36.html"><b>W36</b></a>  
+<p><b>Source Article:</b> Breakfast Cereals: Healthy or Unhealthy?</p>
+<p><b>Data Source:</b> Kaggle: 80 Cereals</p>
