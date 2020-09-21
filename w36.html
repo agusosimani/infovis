@@ -67,7 +67,7 @@ var cereals = [
     ["Strawberry Fruit Wheats",90,2,0,15,3,15,5,90,25],
     ["Cocoa Puffs",110,1,1,180,0,12,13,55,25],
     ["Bran Flakes",90,3,0,210,5,13,5,190,25],
-    ["Fruit & Fibre Dates; Walnuts; and Oats",120,3,2,160,5,12,10,200,25],
+    ["Fruit & Fibre Dates",120,3,2,160,5,12,10,200,25],
     ["Fruity Pebbles",110,1,1,135,0,13,12,25,25],
     ["Golden Crisp",100,2,0,45,0,11,15,40,25],
     ["Grape Nuts Flakes",100,3,1,140,3,15,5,85,25],
@@ -89,7 +89,7 @@ var cereals = [
     ["Double Chex",100,2,0,190,1,18,5,80,25],
     ["Crispy Wheat & Raisins",100,2,1,140,2,11,10,120,25],
     ["Muesli Raisins; Dates; & Almonds",150,4,3,95,3,16,11,170,25],
-    ["Muesli Raisins; Peaches; & Pecans",150,4,3,150,3,16,11,170,25],
+    ["Muesli Raisins; Peaches",150,4,3,150,3,16,11,170,25],
     ["Rice Chex",110,1,0,240,0,23,2,30,25],
     ["Wheat Chex",100,3,1,230,3,17,3,115,25],
     ["Maypo",100,4,1,0,0,16,3,95,25],
@@ -122,26 +122,18 @@ var lineStyle = {
 option = {
     backgroundColor: '#333',
     tooltip: {
+        show: true,
+        showContent: true,
+        alwaysShowContent: true,
         padding: 10,
+        triggerOn: 'mousemove',
+        trigger: 'item',
         backgroundColor: '#222',
         borderColor: '#777',
-        borderWidth: 1,
-        formatter: function (obj) {
-            var value = obj[0].value;
-            return '<div style="border-bottom: 1px solid rgba(255,255,255,.3); font-size: 18px;padding-bottom: 7px;margin-bottom: 7px">'
-                + obj[0].seriesName + ' ' + value[0] + '日期：'
-                + value[7]
-                + '</div>'
-                + schema[1].text + '：' + value[1] + '<br>'
-                + schema[2].text + '：' + value[2] + '<br>'
-                + schema[3].text + '：' + value[3] + '<br>'
-                + schema[4].text + '：' + value[4] + '<br>'
-                + schema[5].text + '：' + value[5] + '<br>'
-                + schema[6].text + '：' + value[6] + '<br>';
-        }
+        borderWidth: 1
     },
     parallelAxis: [
-        // {dim: 0, name: schema[0].text, type: 'category'},
+        {dim: 0, name: schema[0].text, type: 'category'},
         {dim: 1, name: schema[1].text, inverse: true, nameLocation: 'start'},
         {dim: 2, name: schema[2].text},
         {dim: 3, name: schema[3].text, inverse: true, nameLocation: 'start'},
@@ -195,16 +187,8 @@ option = {
         {
             type: 'parallel',
             lineStyle: lineStyle,
-            data: cereals,
-            tooltip: {
-                show: true,
-                trigger: 'axis',
-                formatter: (params) => {
-                    // see tooltip.formatter for details
-                    // you want to focus on the 'marker' property
-                    return params[0].name;
-                }
-            }
+            name: "cereals",
+            data: cereals
         }
     ]
 };
