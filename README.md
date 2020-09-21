@@ -52,6 +52,6 @@
 
 <img align="left" src="logos/w37_logo.png" width=120>
 
-<a href="https://agusosimani.github.io/infovis/w36.html"><b>W37</b></a>  
+<a href="https://agusosimani.github.io/infovis/w37.html"><b>W37</b></a>  
 <p><b>Source Article:</b> School workforce in England</p>
 <p><b>Data Source:</b> School Workforce Census</p>
