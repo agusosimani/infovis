@@ -47,3 +47,11 @@
 <a href="https://agusosimani.github.io/infovis/w36.html"><b>W36</b></a>  
 <p><b>Source Article:</b> Breakfast Cereals: Healthy or Unhealthy?</p>
 <p><b>Data Source:</b> Kaggle: 80 Cereals</p>
+
+<br>
+
+<img align="left" src="logos/w37_logo.png" width=120>
+
+<a href="https://agusosimani.github.io/infovis/w36.html"><b>W37</b></a>  
+<p><b>Source Article:</b> School workforce in England</p>
+<p><b>Data Source:</b> School Workforce Census</p>
